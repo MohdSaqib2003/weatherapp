@@ -25,6 +25,32 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+      * {
+        margin: 0px;
+      }
+  
+      body {
+        background-image: url('back.jpg');
+        /* background-image: url('back.jpg'); */
+        background-size: cover;
+        background-attachment: fixed;
+        /* background-origin:padding-box; */
+        background-position: center;
+        /* font-size: 100px; */
+        background-clip: content-box;
+        /* border: 100px solid grey; */
+        border-left: 250px solid grey;
+        border-right: 250px solid grey;
+  
+      }
+  
+      @media only screen and (max-width: 915px) {
+        body {
+           border:none;
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
